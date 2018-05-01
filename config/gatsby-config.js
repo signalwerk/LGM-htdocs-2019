@@ -1,6 +1,6 @@
 module.exports = {
-  pathPrefix: '/doc-starter',
+  pathPrefix: '/LGM-htdocs-2019',
   siteMetadata: {
-    title: "Doc-Starter",
+    title: "LGM2019",
   },
 }
