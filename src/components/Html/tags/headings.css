@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5 {
+
+  @media print {
+    color: black;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+h1, h2 {
+    /* @mixin scontecss {
+      font-weight: $.fontWeight.serif.bold;
+      font-family: $.fontFamily.serif;
+    } */
+    letter-spacing: .01em;
+
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    line-height: 1.15;
+
+}
+
+h3, h4, h5 {
+    @mixin scontecss {
+      font-weight: $.fontWeight.sans.bold;
+    }
+
+    margin-top: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+
+h1, .heading1 {
+  @mixin scontecss {
+    font-size: $.fontSize.h1;
+  }
+}
+h2, .heading2 {
+  @mixin scontecss {
+    font-size: $.fontSize.h2;
+  }
+}
+h3, .heading3 {
+  @mixin scontecss {
+    font-size: $.fontSize.h3;
+  }
+}
+h4, .heading4 {
+  @mixin scontecss {
+    font-size: $.fontSize.h4;
+  }
+}
+h5, .heading5 {
+  @mixin scontecss {
+    font-size: $.fontSize.h5;
+  }
+}
