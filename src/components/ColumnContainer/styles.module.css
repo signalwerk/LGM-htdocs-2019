@@ -33,6 +33,11 @@ $rootSpacer: 3;
       max-width: calc(1rem * $maxWidth * 0.6566666); /* 8col = 65.667% */
     }
   }
+  & > {
+    ul, ol {
+      width: calc(100% - 2rem);
+    }
+  }
 }
 
 @media (--breakpoint-l) {
